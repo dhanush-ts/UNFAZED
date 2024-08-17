@@ -71,7 +71,7 @@ export const Header = () => {
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
         <img src={logo} className="h-8" alt="Flowbite Logo" />
-        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Hacktivate</span>
+        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">UNFAZED</span>
     </Link>
     <div className="w-full md:block md:w-auto" id="navbar-multi-level">
       <i onClick={() => setIsDarkMode(!isDarkMode)} className="bi bi-brightness-low text-2xl  text-center border-4 rounded-full px-1 text-gray-500 cursor-pointer mx-5"></i>
